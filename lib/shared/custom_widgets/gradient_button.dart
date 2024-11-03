@@ -1,6 +1,7 @@
+import 'package:flutter/material.dart';
+
 import '../../colors/app_colors.dart';
 import '../../dimens/dimens.dart';
-import 'package:flutter/material.dart';
 
 class GradientButton extends StatelessWidget {
   final String text;
@@ -9,7 +10,8 @@ class GradientButton extends StatelessWidget {
   final double? height;
   final bool isDisabled;
 
-  const GradientButton({super.key,
+  const GradientButton({
+    super.key,
     required this.text,
     required this.onPressed,
     this.width,
@@ -25,8 +27,7 @@ class GradientButton extends StatelessWidget {
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
           gradient: AppColors.buttonGradient,
-          borderRadius:
-          BorderRadius.circular(Dimens.buttonHeight / 2),
+          borderRadius: BorderRadius.circular(Dimens.buttonHeight / 2),
           boxShadow: [
             BoxShadow(
                 color: AppColors.shadowColor,

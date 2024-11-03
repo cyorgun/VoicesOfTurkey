@@ -18,10 +18,11 @@ class SplashView extends GetView<SplashController> {
           gradient: AppColors.splashGradient,
         ),
         child: Center(
-          child: CircularImage(
-            imageAddress: 'assets/images/logo.png', height: Dimens.splashLogoSize, width: Dimens.splashLogoSize,
-          )
-        ),
+            child: CircularImage(
+          imageAddress: 'assets/images/logo.png',
+          height: Dimens.splashLogoSize,
+          width: Dimens.splashLogoSize,
+        )),
       ),
     );
   }

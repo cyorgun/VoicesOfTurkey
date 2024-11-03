@@ -5,7 +5,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../routes/app_routes.dart';
 
-
 class SplashController extends GetxController {
   @override
   Future<void> onInit() async {

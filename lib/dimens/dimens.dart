@@ -21,7 +21,4 @@ class Dimens {
   static double get smallFontSize => 12.0;
 
   static double get mediumFontSize => 14.0;
-
-
-
 }

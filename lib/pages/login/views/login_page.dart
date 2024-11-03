@@ -35,10 +35,15 @@ class LoginView extends GetView<LoginController> {
                     padding: EdgeInsets.only(
                       left: 16.0,
                       right: 16.0,
-                      top: (curvedBoxHeight / 2) - (Dimens.logoHeight / 2) - kToolbarHeight,
+                      top: (curvedBoxHeight / 2) -
+                          (Dimens.logoHeight / 2) -
+                          kToolbarHeight,
                     ),
-                    child: CircularImage(imageAddress: 'assets/images/logo.png',
-                      width: Dimens.logoSize, height: Dimens.logoSize,),
+                    child: CircularImage(
+                      imageAddress: 'assets/images/logo.png',
+                      width: Dimens.logoSize,
+                      height: Dimens.logoSize,
+                    ),
                   ),
                   _userInfoBox(context),
                   Align(
@@ -107,13 +112,13 @@ class LoginView extends GetView<LoginController> {
                       },
                       icon: controller.isPasswordObscure.value
                           ? Icon(
-                        Icons.visibility,
-                        color: AppColors.inputIconColor,
-                      )
+                              Icons.visibility,
+                              color: AppColors.inputIconColor,
+                            )
                           : Icon(
-                        Icons.visibility_off,
-                        color: AppColors.inputIconColor,
-                      ),
+                              Icons.visibility_off,
+                              color: AppColors.inputIconColor,
+                            ),
                     ),
                   );
                 }),
@@ -136,7 +141,7 @@ class LoginView extends GetView<LoginController> {
                   ),
                 ),
                 Obx(
-                      () => TextButton(
+                  () => TextButton(
                     onPressed: () {
                       controller.changeRememberMe();
                     },
@@ -148,7 +153,8 @@ class LoginView extends GetView<LoginController> {
                           height: 35,
                           width: 35,
                           child: Checkbox(
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(7.0)),
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(7.0)),
                             value: controller.rememberMe.value,
                             onChanged: (value) {
                               controller.changeRememberMe();

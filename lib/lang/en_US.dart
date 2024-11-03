@@ -18,7 +18,7 @@ const Map<String, String> en_US = {
   'lastname': 'Last Name',
   'password': 'Password',
   'passwordSuggestion':
-  'Enter a valid password. Passwords must:  contain at least 8 characters,\ncontain at least one uppercase,\ncontain at least one number,\ncontain at least one symbol.',
+      'Enter a valid password. Passwords must:  contain at least 8 characters,\ncontain at least one uppercase,\ncontain at least one number,\ncontain at least one symbol.',
   'phone': 'Phone Number',
   'changePassword': 'Change password',
   'confirmPassword': 'Confirm Password',
@@ -64,7 +64,7 @@ const Map<String, String> en_US = {
   'next': 'Next',
   'forgotPasswordTitle': 'Forgot your password?',
   'forgotPasswordDesc':
-  'Enter your email and we will send you OTP code for verification',
+      'Enter your email and we will send you OTP code for verification',
   'newPasswordTitle': 'New password',
   'changePasswordTitle': 'Verification code and new password',
   'changePasswordOTPDesc': 'Enter OTP code we just sent to your email',
@@ -105,14 +105,14 @@ const Map<String, String> en_US = {
   'validationCountryText': 'Please select your country',
   'validationCompanyCodeText': 'Please enter a valid company code',
   'validationCountryCode':
-  'Please select your country to see the terms and conditions',
+      'Please select your country to see the terms and conditions',
   'termsConditionsError':
-  'Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy',
+      'Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy',
   'userNameDialogDesc': 'This email address already exists in the system',
   'ok': 'OK',
   'dialogTitle': 'Oops...',
   'loginErrorMsg':
-  'Your email address or password is incorrect, please try again.',
+      'Your email address or password is incorrect, please try again.',
   'startYourExperience': 'Start Your Experience',
   'enterHere': "Enter here",
   'select': "Select",
@@ -122,15 +122,15 @@ const Map<String, String> en_US = {
   'locationServiceDesc': 'Please enable the location services.',
   'locationServiceTitle': 'Location services are disabled!',
   'companyCodeValidationError':
-  'Invalid company code. Please enter a valid company code.',
+      'Invalid company code. Please enter a valid company code.',
   'userValidationError':
-  'There seems to be a problem. Please check your information and try again',
+      'There seems to be a problem. Please check your information and try again',
   'noCPData': 'There are no charge points.',
   'noCPDataWithFilter': 'There are no charge points matching filter criteria.',
   'errorCPStartSession':
-  'There seems to be a problem. Please select a Chargepoint and try again',
+      'There seems to be a problem. Please select a Chargepoint and try again',
   'errorReservationConnector':
-  'There seems to be a problem. Please select a Chargepoint and try again',
+      'There seems to be a problem. Please select a Chargepoint and try again',
   'successCPStopSession': 'Your session has finished!',
   'successCancelReservation': 'Your reservation has cancelled!',
   'failedCPStopSession': 'Your session has not finished. Please try again.',
@@ -141,7 +141,7 @@ const Map<String, String> en_US = {
   'success': 'Success',
   'failed': 'Failed',
   'failedCancelReservation':
-  'Your reservation has not cancelled. Please try again.',
+      'Your reservation has not cancelled. Please try again.',
   'openSummary': 'Open Summary',
   'backToHome': 'Back to Home',
   'termsConditionsTC': "Terms & Conditions",
@@ -155,7 +155,7 @@ const Map<String, String> en_US = {
   'endTime': 'End Time',
   'cpError': 'No Charger Point data',
   'loremIpsum':
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis mauris sit amet risus interdum vehicula. Quisque laoreet enim eget leo finibus finibus. Proin tempor ut risus non aliquam. Praesent lacinia massa non sapien venenatis, a ullamcorper felis sodales. Donec rhoncus, ligula non aliquam tincidunt, massa est tincidunt elit, ut condimentum urna tortor vitae purus. Mauris at tortor vestibulum tellus sagittis consequat non vitae metus. Maecenas ultrices convallis libero, nec rutrum risus vehicula quis. Curabitur at sem quis nisi tincidunt posuere. Nullam lobortis, diam sed condimentum auctor, est leo tincidunt turpis, at fermentum elit justo id justo. Sed at condimentum ex, quis ullamcorper quam. Mauris aliquet metus ac neque sagittis semper.\n\nQuisque rhoncus est elit, sed ornare tortor consectetur a. Aliquam lobortis rhoncus urna non volutpat. Nam elementum turpis ac nisl vulputate, ac gravida eros gravida. Aenean imperdiet fermentum tristique. Sed dolor nibh, porta in eleifend et, eleifend quis magna. Donec vel velit orci. Curabitur tempor ultricies diam non ullamcorper. Aliquam tempor odio a purus accumsan, a volutpat massa congue. Proin at nibh vitae est tincidunt tincidunt. Ut ut tempus nibh, quis interdum ligula. Curabitur sit amet felis urna. Proin turpis urna, ultricies quis pulvinar et, mollis in erat. Vivamus in fermentum ante. Fusce tincidunt ullamcorper ex. Suspendisse sit amet vestibulum lectus, ac dapibus nisi. Vestibulum vel suscipit metus.\n\nDonec sit amet ligula leo. Nam quis elit a dui dignissim vehicula ut at diam. Ut hendrerit turpis in iaculis suscipit. Nulla lectus diam, imperdiet eget dictum consequat, euismod ac risus. Nam lobortis sed elit sed tincidunt. Nam elementum tellus ut efficitur sodales. Integer volutpat purus finibus, euismod libero a, accumsan mauris.\n\nSed sed facilisis lorem. Quisque quis egestas sapien. Aenean efficitur condimentum lorem. Fusce rhoncus faucibus ex vel porttitor. Nulla malesuada ut sem eu tempus. Etiam id mollis quam, iaculis pulvinar dolor. Phasellus sem quam, consectetur non bibendum quis, elementum nec mauris.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis mauris sit amet risus interdum vehicula. Quisque laoreet enim eget leo finibus finibus. Proin tempor ut risus non aliquam. Praesent lacinia massa non sapien venenatis, a ullamcorper felis sodales. Donec rhoncus, ligula non aliquam tincidunt, massa est tincidunt elit, ut condimentum urna tortor vitae purus. Mauris at tortor vestibulum tellus sagittis consequat non vitae metus. Maecenas ultrices convallis libero, nec rutrum risus vehicula quis. Curabitur at sem quis nisi tincidunt posuere. Nullam lobortis, diam sed condimentum auctor, est leo tincidunt turpis, at fermentum elit justo id justo. Sed at condimentum ex, quis ullamcorper quam. Mauris aliquet metus ac neque sagittis semper.\n\nQuisque rhoncus est elit, sed ornare tortor consectetur a. Aliquam lobortis rhoncus urna non volutpat. Nam elementum turpis ac nisl vulputate, ac gravida eros gravida. Aenean imperdiet fermentum tristique. Sed dolor nibh, porta in eleifend et, eleifend quis magna. Donec vel velit orci. Curabitur tempor ultricies diam non ullamcorper. Aliquam tempor odio a purus accumsan, a volutpat massa congue. Proin at nibh vitae est tincidunt tincidunt. Ut ut tempus nibh, quis interdum ligula. Curabitur sit amet felis urna. Proin turpis urna, ultricies quis pulvinar et, mollis in erat. Vivamus in fermentum ante. Fusce tincidunt ullamcorper ex. Suspendisse sit amet vestibulum lectus, ac dapibus nisi. Vestibulum vel suscipit metus.\n\nDonec sit amet ligula leo. Nam quis elit a dui dignissim vehicula ut at diam. Ut hendrerit turpis in iaculis suscipit. Nulla lectus diam, imperdiet eget dictum consequat, euismod ac risus. Nam lobortis sed elit sed tincidunt. Nam elementum tellus ut efficitur sodales. Integer volutpat purus finibus, euismod libero a, accumsan mauris.\n\nSed sed facilisis lorem. Quisque quis egestas sapien. Aenean efficitur condimentum lorem. Fusce rhoncus faucibus ex vel porttitor. Nulla malesuada ut sem eu tempus. Etiam id mollis quam, iaculis pulvinar dolor. Phasellus sem quam, consectetur non bibendum quis, elementum nec mauris.',
   'emailPageTitle': 'Email Support',
   'emailPageText': 'You can send your enquiries, concerns or complaints via:',
   'whiteLabelEmailAddress': 'whitelabel@mobileapp.com',
@@ -164,14 +164,14 @@ const Map<String, String> en_US = {
   'faqsQuestionTwo': 'Can I cancel a reservation I mistakenly made?',
   'faqsQuestionThree': 'How can I view my previous reservations?',
   'faqsAnswerOne':
-  'Navigate into the History page on the menu options and select the Sessions toggle. Select a particular session to view the detailed charge report.',
+      'Navigate into the History page on the menu options and select the Sessions toggle. Select a particular session to view the detailed charge report.',
   'faqsAnswerTwo':
-  'Yes. Go into the Home page on the menu options and toggle on the Reservation section to select the ongoing reservation. You can cancel your reservation from this page.',
+      'Yes. Go into the Home page on the menu options and toggle on the Reservation section to select the ongoing reservation. You can cancel your reservation from this page.',
   'faqsAnswerThree':
-  'Navigate into the History page on the menu options and select the Reservations toggle. Select a particular session to view the reservation details.',
+      'Navigate into the History page on the menu options and select the Reservations toggle. Select a particular session to view the reservation details.',
   'phonePageTitle': 'Customer support call',
   'phonePageText':
-  'If your question has not been answered in the FAQs, you can speak with a customer support representative on:',
+      'If your question has not been answered in the FAQs, you can speak with a customer support representative on:',
   'whiteLabelPhoneNumber': '07111222333',
   'helpPageTitle': 'CONTACT SUPPORT',
   'helpPageOptionOne': 'Customer support call',
@@ -184,7 +184,7 @@ const Map<String, String> en_US = {
   'payment': 'Payment',
   'paymentPageTitle': 'Payment',
   'paymentMethodSelectionDescription':
-  'Add a payment method\nto start your charging sessions',
+      'Add a payment method\nto start your charging sessions',
   'payment_method_credit_card': 'Credit or debit card',
   'payment_method_paypal': 'PayPal',
   'payment_method_google': 'Google pay',
@@ -232,7 +232,7 @@ const Map<String, String> en_US = {
   'chargingErrorDescription': 'When a problem occurs on a charger',
   'friendsStartOrStopText': 'Friends start/stop',
   'friendsStartOrStopDescription':
-  'When a friend starts/stops a charging session',
+      'When a friend starts/stops a charging session',
   'friendsApprovalText': 'Friends approval',
   'friendsApprovalDescription': 'When a friend accepts your request',
   'firmwareUpdateText': 'Firmware update',

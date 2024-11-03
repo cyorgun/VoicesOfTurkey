@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../pages/home/bindings/home_binding.dart';
+import '../pages/home/views/home_view.dart';
 import '../pages/login/bindings/login_binding.dart';
 import '../pages/login/views/login_page.dart';
 import '../pages/splash/bindings/bindings.dart';
@@ -19,6 +21,11 @@ class AppPages {
       name: Routes.LOGIN,
       page: LoginView.new,
       binding: LoginBinding(),
+    ),
+    GetPage(
+      name: Routes.HOME,
+      page: HomeView.new,
+      binding: HomeBinding(),
     ),
   ];
 }

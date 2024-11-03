@@ -1,7 +1,8 @@
 import 'dart:ui';
-import '../../colors/app_colors.dart';
+
 import 'package:flutter/material.dart';
 
+import '../../colors/app_colors.dart';
 import '../../dimens/dimens.dart';
 
 class BlurContainer extends StatelessWidget {
@@ -38,7 +39,8 @@ class BlurContainer extends StatelessWidget {
   final List<BoxShadow>? boxShadow;
   final Widget? child;
 
-  const BlurContainer({super.key,
+  const BlurContainer({
+    super.key,
     this.width,
     this.height,
     this.boxConstraints,

@@ -9,9 +9,13 @@ class CircularImage extends StatelessWidget {
   final double width;
 
   const CircularImage({
-    super.key, required this.imageAddress,
-    this.fit = BoxFit.fitHeight, this.splashColor, this.isClickable = false,
-    this.height = 50.0, this.width = 50.0,
+    super.key,
+    required this.imageAddress,
+    this.fit = BoxFit.fitHeight,
+    this.splashColor,
+    this.isClickable = false,
+    this.height = 50.0,
+    this.width = 50.0,
   });
 
   @override
@@ -21,10 +25,11 @@ class CircularImage extends StatelessWidget {
       clipBehavior: Clip.antiAliasWithSaveLayer,
       child: InkWell(
         splashColor: splashColor,
-        onTap: isClickable ? (){} : null,
-        child: Ink.image(image: AssetImage(
-          imageAddress,
-        ),
+        onTap: isClickable ? () {} : null,
+        child: Ink.image(
+          image: AssetImage(
+            imageAddress,
+          ),
           fit: fit,
           height: height,
           width: width,

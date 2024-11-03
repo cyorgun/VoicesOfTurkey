@@ -14,7 +14,8 @@ class CurvedHeader extends StatelessWidget {
   final Widget? child;
   final Alignment? alignment;
 
-  const CurvedHeader({super.key,
+  const CurvedHeader({
+    super.key,
     this.width,
     this.height,
     this.padding,
@@ -37,8 +38,7 @@ class CurvedHeader extends StatelessWidget {
         gradient: gradient ?? flavorsGradient,
         borderRadius: borderRadius ??
             BorderRadius.only(
-              bottomLeft:
-              Radius.circular(Dimens.curvedHeaderRadius),
+              bottomLeft: Radius.circular(Dimens.curvedHeaderRadius),
             ),
       ),
       child: child,

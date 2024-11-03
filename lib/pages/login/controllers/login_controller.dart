@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
+import '../../../routes/app_routes.dart';
+
 class LoginController extends GetxController {
   var rememberMe = true.obs;
   final isPasswordObscure = true.obs;
@@ -12,7 +14,7 @@ class LoginController extends GetxController {
   });
 
   void login(context) {
-    //Get.offAndToNamed(Routes.ARTIFACTS);
+    Get.offAndToNamed(Routes.HOME);
   }
 
   void changeRememberMe() {

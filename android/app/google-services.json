@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989698014066",
+    "project_id": "voices-of-turkey-23930",
+    "storage_bucket": "voices-of-turkey-23930.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989698014066:android:8df3ae52588fb6170bfbeb",
+        "android_client_info": {
+          "package_name": "com.grupmavimedya.voicesofturkey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFUdgBnpk3OhpWm4HGmD9-dktP1BHolF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

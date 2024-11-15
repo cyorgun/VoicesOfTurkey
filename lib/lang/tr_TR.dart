@@ -1,12 +1,12 @@
-const Map<String, String> en_US = {
+const Map<String, String> tr_TR = {
   'appName': 'Voices of Turkey',
-  'noMember': 'Not a member yet?',
-  'rememberMe': 'Remember me',
-  'forgotPass': 'Forgot password?',
-  'register': 'Create Account',
-  'artifacts': 'Artifacts',
-  'restaurants': 'Restaurants',
-  'hotels': 'Hotels',
+  'noMember': 'Henüz üye değil misin?',
+  'rememberMe': 'Hatırla beni',
+  'forgotPass': 'Şifreni mı unuttun?',
+  'register': 'Hesap yarat',
+  'artifacts': 'Tarihi Eserler',
+  'restaurants': 'Restoranlar',
+  'hotels': 'Oteller',
   'loremIpsum':
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis mauris sit amet risus interdum vehicula. Quisque laoreet enim eget leo finibus finibus. Proin tempor ut risus non aliquam. Praesent lacinia massa non sapien venenatis, a ullamcorper felis sodales. Donec rhoncus, ligula non aliquam tincidunt, massa est tincidunt elit, ut condimentum urna tortor vitae purus. Mauris at tortor vestibulum tellus sagittis consequat non vitae metus. Maecenas ultrices convallis libero, nec rutrum risus vehicula quis. Curabitur at sem quis nisi tincidunt posuere. Nullam lobortis, diam sed condimentum auctor, est leo tincidunt turpis, at fermentum elit justo id justo. Sed at condimentum ex, quis ullamcorper quam. Mauris aliquet metus ac neque sagittis semper.\n\nQuisque rhoncus est elit, sed ornare tortor consectetur a. Aliquam lobortis rhoncus urna non volutpat. Nam elementum turpis ac nisl vulputate, ac gravida eros gravida. Aenean imperdiet fermentum tristique. Sed dolor nibh, porta in eleifend et, eleifend quis magna. Donec vel velit orci. Curabitur tempor ultricies diam non ullamcorper. Aliquam tempor odio a purus accumsan, a volutpat massa congue. Proin at nibh vitae est tincidunt tincidunt. Ut ut tempus nibh, quis interdum ligula. Curabitur sit amet felis urna. Proin turpis urna, ultricies quis pulvinar et, mollis in erat. Vivamus in fermentum ante. Fusce tincidunt ullamcorper ex. Suspendisse sit amet vestibulum lectus, ac dapibus nisi. Vestibulum vel suscipit metus.\n\nDonec sit amet ligula leo. Nam quis elit a dui dignissim vehicula ut at diam. Ut hendrerit turpis in iaculis suscipit. Nulla lectus diam, imperdiet eget dictum consequat, euismod ac risus. Nam lobortis sed elit sed tincidunt. Nam elementum tellus ut efficitur sodales. Integer volutpat purus finibus, euismod libero a, accumsan mauris.\n\nSed sed facilisis lorem. Quisque quis egestas sapien. Aenean efficitur condimentum lorem. Fusce rhoncus faucibus ex vel porttitor. Nulla malesuada ut sem eu tempus. Etiam id mollis quam, iaculis pulvinar dolor. Phasellus sem quam, consectetur non bibendum quis, elementum nec mauris.',
 };

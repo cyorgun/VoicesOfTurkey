@@ -37,7 +37,15 @@ class AppColors {
 
   static Color textColor = Colors.white;
 
+  static Color background = Colors.white;
+
+  static Color iconColor = Colors.white;
+
   static Color inputIconColor = const Color(0xffC3CFDA);
 
   static Color textFieldColor = const Color(0xff4B4B4B);
+
+  static Color acceptCallButtonColor = const Color(0xff459f32);
+
+  static Color declineCallButtonColor = const Color(0xffe80b13);
 }

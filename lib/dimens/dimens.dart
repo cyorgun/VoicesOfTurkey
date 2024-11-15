@@ -3,6 +3,7 @@ class Dimens {
   static double get curvedHeaderRadius => 80.0;
   static double get logoSize => 60.0;
   static double get logoHeight => 70.0;
+  static double get appBarSize => 60.0;
 
   static double get medium2FontSize => 16.0;
 
